@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="contain">
+      <div class="search">
+        <input type="text" class="input" placeholder="Enter Your Location" />
+        <button class="btn"><img src="search.png" alt="" /></button>
+      </div>
+      
+      <div class="parent">
+        <div class="box">
+          <img class="icon" src="clouds.png" alt="" />
+          <h1 class="temp">23°C</h1>
+          <p class="city">new york</p>
+        </div>
+
+        <div class="footer">
+          <img src="severe-weather_10944146.png" alt="" />
+          <div>
+            <p class="humid">64%</p>
+            <p class="para">Humidity</p>
+          </div>
+        </div>
+        <div class="foot">
+          <img src="windy_4772548.png" alt="" />
+          <div>
+            <p class="wind">23Km/h</p>
+            <p class="speed">wind speed</p>
+          </div>
+        </div>
+     
+      </div>
+      <div class="eror">
+        <div class="details">
+          <img src="web-online-page-404-not-260nw-1524348908.webp" alt="" />
+          <p class="p">Oops Location not found!</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
